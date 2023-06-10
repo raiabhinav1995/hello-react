@@ -4,6 +4,7 @@ import PropsBasic from './PropsBasic';
 import ClassBasedComponent from './ClassBasedComponent';
 import Difference from './dfference';
 import UsingComponentState from './UsingComponentState';
+import Counter from './Counter';
 function App() {
   return <div>
     <PropsBasic/>
@@ -25,6 +26,7 @@ function App() {
       </p>
       <h3>Using our class based component in our file, we are also using state here</h3>
       <UsingComponentState/>
+      <Counter/>
     </p>
   </div>;
 }
