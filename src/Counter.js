@@ -42,6 +42,7 @@ class Counter extends Component {
     //this.setState((prevValue)=>{
         // count: prevValue.count+1;
     // })
+    //The second argument to this function is our props
     this.increment();
     this.increment();
     this.increment();

@@ -5,9 +5,11 @@ import ClassBasedComponent from './ClassBasedComponent';
 import Difference from './dfference';
 import UsingComponentState from './UsingComponentState';
 import Counter from './Counter';
+import FunctionClick from './FunctionClick';
+import ClassClick from './ClassClick';
 function App() {
   return <div>
-    <PropsBasic/>
+    {/* <PropsBasic/>
     <p>Similar to our function we just render our class based component:</p>
     <ClassBasedComponent name="Abhinav"/>
     <p>But in a class based component we don`t have access to props so how to access props?
@@ -27,7 +29,12 @@ function App() {
       <h3>Using our class based component in our file, we are also using state here</h3>
       <UsingComponentState/>
       <Counter/>
-    </p>
+
+      <p>Events happen in our application when user interacts with our application like <strong>Keypress, click, change</strong></p>
+    <p>In case of an event our application should handle the functionality</p> */}
+    <FunctionClick/>
+    <ClassClick/>
+    {/* </p> */}
   </div>;
 }
 
