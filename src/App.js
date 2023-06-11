@@ -7,6 +7,9 @@ import UsingComponentState from './UsingComponentState';
 import Counter from './Counter';
 import FunctionClick from './FunctionClick';
 import ClassClick from './ClassClick';
+import ConditionalRendering from './ConditionalRendering';
+import RenderingList from './RenderingList';
+
 function App() {
   return <div>
     {/* <PropsBasic/>
@@ -32,8 +35,10 @@ function App() {
 
       <p>Events happen in our application when user interacts with our application like <strong>Keypress, click, change</strong></p>
     <p>In case of an event our application should handle the functionality</p> */}
-    <FunctionClick/>
-    <ClassClick/>
+    {/* <FunctionClick/>
+    <ClassClick/> */}
+    {/* <ConditionalRendering/> */}
+    <RenderingList/>
     {/* </p> */}
   </div>;
 }
